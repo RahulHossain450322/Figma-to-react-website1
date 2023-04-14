@@ -1,0 +1,42 @@
+.commit {
+  background-color: #363434f1 !important;
+}
+.commit-single {
+  max-width: 314px;
+  color: aliceblue !important;
+}
+.commit-img {
+  width: 100px;
+}
+img {
+  width: 100%;
+}
+.commit-wrapper {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: auto auto auto;
+}
+@media screen and (max-width: 576px) {
+  .commit-wrapper {
+    grid-template-columns: auto !important;
+  }
+  .commit-single {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 782px) {
+  .commit-wrapper {
+    grid-template-columns: auto !important;
+  }
+  .commit-single {
+    max-width: 750px !important;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .commit-body {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+  background-color: #333 !important;
+}
+.footer-img {
+  max-width: 120px;
+}
+.link-img {
+  max-width: 30px;
+}
+img {
+  width: 100%;
+}
+.footer-link {
+  display: flex;
+  grid-gap: 0 20px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}

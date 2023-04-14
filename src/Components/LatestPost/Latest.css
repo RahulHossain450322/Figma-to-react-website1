@@ -1,0 +1,30 @@
+.latest {
+  background-color: #ff6864;
+}
+.card-single {
+  max-width: 314px;
+  border-radius: 10px;
+  width: 100%;
+}
+.card-text {
+  font-weight: bold;
+}
+.card-img {
+  border-radius: 10px !important;
+}
+.card-wrapper {
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: auto auto auto;
+}
+@media screen and (max-width: 576px) {
+  .card-wrapper {
+    grid-template-columns: auto !important;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 782px) {
+  .card-wrapper {
+    grid-template-columns: auto auto;
+  }
+}
