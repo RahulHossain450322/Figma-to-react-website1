@@ -8,19 +8,12 @@ import Student from './Components/Students/Student';
 
 function App() {
   return (
-    // eslint-disable-next-line react/react-in-jsx-scope
     <>
-      {/* eslint-disable-next-line react/react-in-jsx-scope */}
       <Header />
-      {/* eslint-disable-next-line react/react-in-jsx-scope */}
       <Learn />
-      {/* eslint-disable-next-line react/react-in-jsx-scope */}
       <Student />
-      {/* eslint-disable-next-line react/react-in-jsx-scope */}
       <Latest />
-      {/* eslint-disable-next-line react/react-in-jsx-scope */}
       <Commit />
-      {/* eslint-disable-next-line react/react-in-jsx-scope */}
       <Footer />
     </>
   );
