@@ -11,7 +11,6 @@ img {
   width: 100%;
 }
 .learn-list {
-  font-size: 2rem;
   list-style: linear-gradient(to right, red, transparent);
 }
 .display-4 {

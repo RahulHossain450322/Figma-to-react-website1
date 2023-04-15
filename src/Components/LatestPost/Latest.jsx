@@ -12,6 +12,7 @@ function Latest() {
           <h3 className="display-4 mb-5 text-light">Latest Posts</h3>
           {/* card wrapper starts here */}
           <div className="card-wrapper">
+          {/* single card starts here */}
             <div className="card card-single">
               <div className="">
                 <img className="card-img" src={latestImage1} alt="card" />
@@ -20,6 +21,8 @@ function Latest() {
                 <p className="card-text">How To Use Drum Machine in Logic Pro X</p>
               </div>
             </div>
+          {/* single card ends here */}
+          {/* single card starts here */}
             <div className="card card-single">
               <div className="">
                 <img className="card-img" src={latestImage2} alt="card" />
@@ -28,6 +31,8 @@ function Latest() {
                 <p className="card-text">How To Use Drum Machine in Logic Pro X</p>
               </div>
             </div>
+          {/* single card ends here */}
+          {/* single card starts here */}
             <div className="card card-single">
               <div className="">
                 <img className="card-img" src={latestImage3} alt="card" />
@@ -36,6 +41,7 @@ function Latest() {
                 <p className="card-text">How To Use Drum Machine in Logic Pro X</p>
               </div>
             </div>
+          {/* single card ends here */}
           </div>
           {/* card wrapper ends here */}
         </div>

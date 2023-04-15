@@ -2,9 +2,9 @@
   background-color: #ff6864;
 }
 .card-single {
-  max-width: 314px;
-  border-radius: 10px;
+  max-width: 400px;
   width: 100%;
+  border-radius: 12px !important;
 }
 .card-text {
   font-weight: bold;
@@ -13,9 +13,9 @@
   border-radius: 10px !important;
 }
 .card-wrapper {
-  display: grid;
-  grid-gap: 20px 20px;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  grid-gap: 1rem;
+  justify-content: space-between;
 }
 @media screen and (max-width: 576px) {
   .card-wrapper {
@@ -25,6 +25,8 @@
 }
 @media screen and (max-width: 782px) {
   .card-wrapper {
+    display: grid !important;
+    grid-gap: 1rem;
     grid-template-columns: auto auto;
   }
 }

@@ -44,7 +44,7 @@ function Footer() {
           {/* single footer content starts here */}
         </div>
         <p className="text-light">
-          This website is designed by HungryCoder Ⓒ 2023
+          This website is designed by <span className='h4 text-primary'>HungryCoder</span> Ⓒ 2023
         </p>
       </div>
     </footer>

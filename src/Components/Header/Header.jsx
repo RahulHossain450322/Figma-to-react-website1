@@ -45,8 +45,8 @@ function Header() {
             </div>
           </nav>
         </div>
-        <div className="card-section">
-          <div className="card-body p-5 ms-auto">
+        <div className="card-section ms-auto">
+          <div className="card-body p-5">
             <p className="h5">Sound Design Masterclass</p>
             <p className="h1 my-4">
               Learn the Art of Sound Design
